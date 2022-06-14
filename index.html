@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal PortfolioGS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+  <div class="toggle" onclick="toggleMenu()"></div>
+
+  <div class="sidebar">
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu()">Inicio</a></li>
+      <li><a href="#about" onclick="toggleMenu()">Acerca de</a></li>
+      <li><a href="#services"  onclick="toggleMenu()">Servicios</a></li>
+      <li><a href="#work" onclick="toggleMenu()">Proyectos</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+    </ul>
+  </div>
+
+  <section class="banner" id="home">
+    <div class="imgSidebar">
+      <img src="./assets/images/secundaria1.jpg" alt="foto perfil">
+    </div>
+    <div class="contentBx">
+      <h5 class="logoText">Mi_Portafolio</h5>
+      <div>
+        <h4><span>Hola</span>, Soy</h4>
+        <h2>Jonathan González</h2>
+        <h4>Desarrollador Web</h4>
+        <p>Desarrollador FrontEnd en JavaScript con experiencia en el desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS y React.JS para la creación de páginas de aterrizaje, paginas interactivas y experiencia de usuario siguiendo todas las normas y buenas prácticas en el diseño y desarrollo.
+        </p>
+        <a href="pdf/cv_js.pdf" class="btn" target="_blank">Download CV</a>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="https://www.linkedin.com/in/jonathan-andres-gonzalez-saenz-/" target="_blank">
+            <img src="./assets/images/linkedin.png" alt="iconoLinkedin">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/jhonnierGS" target="_blank">
+            <img src="./assets/images/twitter.png" alt="iconoTwitter">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/JhonnierGS" target="_blank">
+            <img src="./assets/images/github.png" alt="iconoGithub">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="title white">
+      <h2>Acerca de</h2>
+      <p>¿Quien soy?</p>
+    </div>
+    <div class="content">
+      <div class="textBx">
+        <p>Desde hace muchos años me he interesado en todo lo relacionado con la tecnología, debido a esto actualmente estoy realizando estudios especializados como desarrollador Web, gracias a esto he realizado activamente proyectos con diferentes equipos, esto me ha permitido conocer mucha gente con las mismas paciones que yo.
+        <br>
+        Soy una persona creativa que le encanta crear música, hacer animaciones e interactuar con tecnologías nuevas y enfrentarme a retos interesantes
+        </p>
+      </div>
+      <div class="imgBx">
+        <img src="./assets/images/principa1l.jpg" alt="foto perfil quien soy">
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="title">
+      <h2>Servicios</h2>
+      <p>lo que proporciono</p>
+    </div>
+    <div class="content">
+      <div class="servicesBx">
+        <img src="./assets/images/icon1.png" alt="imagen de servicios">
+        <h2>Diseño web</h2>
+        <p>Priorizo ​​la comunicación y una interfaz de usuario receptiva; seleccionando los elementos que la componen y codificando los diseños en lenguajes HTML, CSS y JS.</p>
+      </div>
+      <div class="servicesBx">
+        <img src="./assets/images/icon2.png" alt="imagen de servicios">
+        <h2>Desarrollo web</h2>
+        <p>Trabajo con las nuevas tecnologías del mercado para garantizar a clientes la creación de un producto viable, homologado, vendible y que cumpla con los estándares web, aportando una experiencia diferencial.</p>
+      </div>
+      <div class="servicesBx">
+        <img src="./assets/images/icon5.png" alt="imagen de servicios">
+        <h2>Conetent writing</h2>
+        <p>Siempre estoy al día en la documentación de las aplicaciones realizadas, tecnologías y tendencias del mercado, integrando gráficos, audio, video y publicidad en los sitios web</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="title">
+      <h2>Mis Proyectos</h2>
+      <p>Estos son algunos de los proyectos más relevantes que he realizado</p>
+    </div>
+    <div class="work__content">
+      <div class="workBx">
+        <div class="imgBx">
+          <img src="./assets/images/blogEnglish.png" alt="imagen proyecto">
+        </div>
+        <div class="content__tetxBx">
+          <h2>Blog English</h2>
+          <p>Un Blog en inglés que habla sobre mi crecimiento y aprendizajes en el último año realizado con
+            un efecto paralax para dar una experiencia de usuario única, hecho con HMTL, CSS y JavaScript</p>
+          <a href="https://jhonniergs.github.io/BlogEnglish./" target="_blank">Ver más</a>
+        </div>
+      </div>
+      <div class="workBx">
+        <div class="imgBx">
+          <img src="./assets/images/gasolinamx.png" alt="imagen proyecto">
+        </div>
+        <div class="content__tetxBx">
+          <h2>Gasolina MX</h2>
+          <p>gasolinaMX es un proyecto donde se puede obtener información sobre las ubicaciones y precios de las estaciones de servicio en México. hecho con HTML, CSS, JavaScript y React.js</p>
+          <a href="https://github.com/JhonnierGS/gasolinaMX" target="_blank">Ver más</a>
+        </div>
+      </div>
+      <div class="workBx">
+        <div class="imgBx">
+          <img src="./assets/images/music.png" alt="imagen proyecto">
+        </div>
+        <div class="content__tetxBx">
+          <h2>Music App</h2>
+          <p>Music APP es una aplicación colombiano-mexicana, utilizada para reproducir música vía streaming, hecho con HTML, CSS & SASS, JavaScript & Angular.js, Node.js, Express, PostgresSQL</p>
+          <a href="https://github.com/Music-App-Platzi" target="_blank">Ver más</a>
+        </div>
+      </div>
+      <div class="workBx">
+        <div class="imgBx">
+          <img src="./assets/images/Glassmosphi.png" alt="imagen proyecto">
+        </div>
+        <div class="content__tetxBx">
+          <h2>Glassmorphism</h2>
+          <p>Planeador semanal hecho en CSS con un efecto Glassmorphism totalmente responsivo, tiene un reloj con efecto Glassmorphism, hecho con HTML, CSS y JavaScript</p>
+          <a href="https://jhonniergs.github.io/Glassmorphism/" target="_blank">Ver más</a>
+        </div>
+      </div>
+      <div class="workBx">
+        <div class="imgBx">
+          <img src="./assets/images/dragonConf.png" alt="imagen proyecto">
+        </div>
+        <div class="content__tetxBx">
+          <h2>Conf Dragon</h2>
+          <p>Proyecto practico en bootstrap. Conferencia de dragon ball realizada en HMTL, CSS, JS y Bootstrap totalmente responsivo</p>
+          <a href="https://jhonniergs.github.io/Bootstrap/" target="_blank">Ver más</a>
+        </div>
+      </div>
+      <div class="workBx">
+        <div class="imgBx">
+          <img src="./assets/images/quieroCasa.png" alt="imagen proyecto">
+        </div>
+        <div class="content__tetxBx">
+          <h2>Quiero Casa</h2>
+          <p>Página web de estados de construcciones de casas, apartamentos o edificios, no iniciadas, detenidas o finalizadas con modo responsivo, hecho con HTML, CSS y JavaScript</p>
+          <a href="https://jhonniergs.github.io/QuieroCasa./" target="_blank">Ver más</a>
+        </div>
+      </div>
+      <div class="workBx">
+        <div class="imgBx">
+          <img src="./assets/images/cardsSimpson.png" alt="imagen proyecto">
+        </div>
+        <div class="content__tetxBx">
+          <h2>Card Simpsons</h2>
+          <p>Una página web que hace llamados a la FakeAPI de los Simpson, maquetación y estilos con HTML y CSS llamados con JavaScript y una configuración de entorno con Webpack y babel, desplegada en Netlify</p>
+          <a href="https://friendly-lovelace-c9c867.netlify.app/" target="_blank">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="title white">
+      <h2>Contacto</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam voluptates officia aliquid, sapiente, ipsam natus quasi.</p>
+    </div>
+    <form id="" action="" class="contactForm">
+      <div class="row">
+        <div class="col50">
+          <input type="text" name="" placeholder="Frist Name">
+        </div>
+        <div class="col50">
+          <input type="text" name="" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col50">
+          <input type="text" name="" placeholder="Email">
+        </div>
+        <div class="col50">
+          <input type="text" name="" placeholder="Mobile No.">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col10">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col10">
+          <input type="submit" value="Enviar">
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="sec aboutus">
+          <h2 class="sec__h2">About Us</h2>
+          <p>Eyyy! ¿Que tal? Soy Jonathan Gonzalez un desarrollador Front-End, ¿te ha gustado lo que viste? si es así, entonces echa un vistazo a los links rápidos que están en la parate de al lado ➡ si estas en Desktop o si estas en mobile en la parte de abajo ⬇ también, si quieres saber más de mí, puedes ver mis redes sociales que están justo abajo de este texto.</p>
+      </div>
+      <ul class="sci__footer">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/jhonnierGS" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jonathan-andres-gonzalez-saenz-/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li><a href="https://github.com/JhonnierGS" target="_blank"><i class="fab fa-github-square"></i></a></li>
+      </ul>
+    </div>
+    <div class="sec quickLinks">
+      <h2 class="sec__h2">Quick Links</h2>
+      <ul>
+        <li>
+          <a href="https://jhonniergs.github.io/BlogEnglish./quickLinks/sobre.html" target="_blank">About Us Smoke?</a>
+        </li>
+        <li>
+          <a href="https://jhonniergs.github.io/BlogEnglish./quickLinks/cube.html" target="_blank">Climbing Cube</a>
+        </li>
+        <li>
+          <a href="https://jhonniergs.github.io/BlogEnglish./quickLinks/3Drotating.html target=" target="_blank">
+            3D Rotating My Coach
+          </a>
+        </li>
+        <li>
+          <a href="https://jhonniergs.github.io/BlogEnglish./quickLinks/parallax.html" target="_blank">Parallax</a>
+        </li>
+        <li>
+          <a href="https://jhonniergs.github.io/BlogEnglish./quickLinks/Neon.html" target="_blank">Neon Light Text</a>
+        </li>
+        <li>
+          <a href="https://jhonniergs.github.io/BlogEnglish./quickLinks/flying.html" target="_blank">Flying Rocket</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sec contact__footer">
+        <h2 class="sec__h2">Contact info</h2>
+        <ul class="info">
+            <li>
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <span>Bogota, Colombia</span>
+            </li>
+            <li>
+                <span><i class="fas fa-phone"></i></span>
+                </p><a href="tel:3043286532">+57 304 328 6532</a><p>
+            </li>
+            <li>
+                <span><i class="fas fa-envelope"></i></span>
+                <p><a href="#">gs.170590@gmail.com</a></p>
+            </li>
+        </ul>
+    </div>
+  </footer>
+  <div class="copyrightText">
+    <p>Copyright © 2022 Desarrollado por Jhonny-GS</p>
+  </div>
+
+  <script>
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.toggle');
+      const sidebar = document.querySelector('.sidebar');
+      menuToggle.classList.toggle('active');
+      sidebar.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
